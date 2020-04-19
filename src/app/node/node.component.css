@@ -1,0 +1,14 @@
+.grid {
+    margin: 100px 0 0;
+    top: 25%;
+    left: 12%;
+    position: fixed;
+
+  }
+
+.node {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+}
