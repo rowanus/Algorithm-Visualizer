@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AlgorithmVisualizer
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
@@ -28,4 +27,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 =======
 # Algorithm-Visualizer
->>>>>>> 87cf2226a01b841eb1da46270f69d3de1a981d84
+

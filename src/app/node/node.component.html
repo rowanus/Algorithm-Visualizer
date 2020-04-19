@@ -1,7 +1,7 @@
+<button mat-raised-button color="primary" (click) = "visualizeDijkstra()">Run</button>
 <div class="grid">
    <tr *ngFor="let row of grid">
-        <td *ngFor="let col of row" class="node">
-
+        <td *ngFor="let col of row" id = "node-{{col.row}}-{{col.col}}" [ngClass]="{nodeFinish: col.isFinish, nodeStart: col.isStart}" class="node">
 </td>
 </tr>
 </div>
