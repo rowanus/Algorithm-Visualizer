@@ -1,7 +1,7 @@
 <button mat-raised-button color="primary" (click) = "visualizeDijkstra()">Run</button>
 <div class="grid">
    <tr *ngFor="let row of grid">
-        <td *ngFor="let col of row" id = "node-{{col.row}}-{{col.col}}" [ngClass]="{nodeFinish: col.isFinish, nodeStart: col.isStart}" class="node">
+        <td *ngFor="let col of row" (click) = "setWall(col.row, col.col)" id = "node-{{col.row}}-{{col.col}}" [ngClass]="{nodeFinish: col.isFinish, nodeStart: col.isStart, nodeWall: col.isWall}" class="node">
 </td>
 </tr>
 </div>

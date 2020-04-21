@@ -41,6 +41,10 @@ button {
   animation-play-state: running;
 }
 
+.nodeWall {
+  background-color: black;
+}
+
 @keyframes visitedAnimation {
   0% {
     transform: scale(0.3);

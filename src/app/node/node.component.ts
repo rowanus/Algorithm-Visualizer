@@ -42,6 +42,12 @@ export class NodeComponent implements OnInit {
     };
   };
 
+  setWall(row, col) {
+    console.log(this.grid[row][col]);
+    this.grid[row][col].isWall = true;
+    
+  }
+
   animateDijkstra(visitedNodesInOrder, nodesInShortestPathOrder) {
     for (let i = 0; i <= visitedNodesInOrder.length; i++) {
       if (i === visitedNodesInOrder.length) {
@@ -59,6 +65,8 @@ export class NodeComponent implements OnInit {
   }
 
   animateShortestPath(nodesInShortestPathOrder) {
+    console.log(nodesInShortestPathOrder);
+    
     for (let i = 0; i < nodesInShortestPathOrder.length; i++) {
       setTimeout(() => {
         const node = nodesInShortestPathOrder[i];
